@@ -62,6 +62,12 @@ class Index
         }
     }
 
+    public function getTest():Json{
+        $result = ["name"=>"wst"];
+        return json($result);
+    }
+
+
 
     /**
      * 根据id查询todo数据
